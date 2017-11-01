@@ -1,0 +1,25 @@
+.poly
+  padding: 12px
+  position: relative
+  .polyContent
+    position: relative
+
+  .polyTint, .polyBlur, .polyNoise
+    position: absolute
+    top: 0px
+    left: 0px
+    height: 100%
+    width: 100%
+    
+  .polyBlur, .polyNoise
+    background-attachment: fixed !important
+    background-position: center !important
+    background-repeat: no-repeat !important
+    background-size: cover !important
+    overflow: hidden
+
+  .polyNoise
+    background: url('./noise.png')
+    background-size: 25000px !important
+    opacity: 0.07
+    
